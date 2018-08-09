@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67572C56211BCBAA0020B75A /* ChangeStuMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67572C55211BCBAA0020B75A /* ChangeStuMsgViewController.m */; };
+		67643F8A211A7F58008E68D7 /* addStuMsgViewControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67643F89211A7F58008E68D7 /* addStuMsgViewControllerDelegate.m */; };
+		67643F97211AC7D0008E68D7 /* DeleteMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67643F96211AC7D0008E68D7 /* DeleteMsgViewController.m */; };
+		6783134E211712CA00254293 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6783134D211712CA00254293 /* AppDelegate.m */; };
+		67831351211712CA00254293 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67831350211712CA00254293 /* ViewController.m */; };
+		67831354211712CA00254293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67831352211712CA00254293 /* Main.storyboard */; };
+		67831356211712CA00254293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67831355211712CA00254293 /* Assets.xcassets */; };
+		67831359211712CA00254293 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67831357211712CA00254293 /* LaunchScreen.storyboard */; };
+		6783135C211712CA00254293 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6783135B211712CA00254293 /* main.m */; };
+		67831366211712CB00254293 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67831365211712CB00254293 /* ________Tests.m */; };
+		67831371211712CB00254293 /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67831370211712CB00254293 /* ________UITests.m */; };
+		6787676121192D160072D9B3 /* addStuMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6787676021192D160072D9B3 /* addStuMsgViewController.m */; };
+		678767FA2119428B0072D9B3 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678767F92119428B0072D9B3 /* RegisterViewController.m */; };
+		678767FD211942F50072D9B3 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678767FC211942F50072D9B3 /* LogInViewController.m */; };
+		67876800211981FA0072D9B3 /* ShowAllStuMsgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 678767FF211981FA0072D9B3 /* ShowAllStuMsgViewController.m */; };
+		678768032119832F0072D9B3 /* StudentMsg.m in Sources */ = {isa = PBXBuildFile; fileRef = 678768022119832D0072D9B3 /* StudentMsg.m */; };
+		678768062119857A0072D9B3 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 678768052119857A0072D9B3 /* MyClass.m */; };
+		6787680A211995F20072D9B3 /* ShowTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67876809211995F20072D9B3 /* ShowTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67831362211712CB00254293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67831341211712CA00254293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67831348211712CA00254293;
+			remoteInfo = "学生成绩管理系统";
+		};
+		6783136D211712CB00254293 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67831341211712CA00254293 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67831348211712CA00254293;
+			remoteInfo = "学生成绩管理系统";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67572C54211BCBAA0020B75A /* ChangeStuMsgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeStuMsgViewController.h; sourceTree = "<group>"; };
+		67572C55211BCBAA0020B75A /* ChangeStuMsgViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeStuMsgViewController.m; sourceTree = "<group>"; };
+		67643F88211A7F58008E68D7 /* addStuMsgViewControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addStuMsgViewControllerDelegate.h; sourceTree = "<group>"; };
+		67643F89211A7F58008E68D7 /* addStuMsgViewControllerDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addStuMsgViewControllerDelegate.m; sourceTree = "<group>"; };
+		67643F95211AC7D0008E68D7 /* DeleteMsgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeleteMsgViewController.h; sourceTree = "<group>"; };
+		67643F96211AC7D0008E68D7 /* DeleteMsgViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeleteMsgViewController.m; sourceTree = "<group>"; };
+		67831349211712CA00254293 /* 学生成绩管理系统.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "学生成绩管理系统.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6783134C211712CA00254293 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6783134D211712CA00254293 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6783134F211712CA00254293 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		67831350211712CA00254293 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		67831353211712CA00254293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67831355211712CA00254293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67831358211712CA00254293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6783135A211712CA00254293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6783135B211712CA00254293 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67831361211712CB00254293 /* 学生成绩管理系统Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "学生成绩管理系统Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67831365211712CB00254293 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		67831367211712CB00254293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6783136C211712CB00254293 /* 学生成绩管理系统UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "学生成绩管理系统UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67831370211712CB00254293 /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		67831372211712CB00254293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6787675F21192D160072D9B3 /* addStuMsgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addStuMsgViewController.h; sourceTree = "<group>"; };
+		6787676021192D160072D9B3 /* addStuMsgViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addStuMsgViewController.m; sourceTree = "<group>"; };
+		678767F82119428B0072D9B3 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		678767F92119428B0072D9B3 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		678767FB211942F50072D9B3 /* LogInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		678767FC211942F50072D9B3 /* LogInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		678767FE211981FA0072D9B3 /* ShowAllStuMsgViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowAllStuMsgViewController.h; sourceTree = "<group>"; };
+		678767FF211981FA0072D9B3 /* ShowAllStuMsgViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowAllStuMsgViewController.m; sourceTree = "<group>"; };
+		678768012119832D0072D9B3 /* StudentMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StudentMsg.h; path = "../../正式5个属性的学生管理系统/正式5个属性的学生管理系统/StudentMsg.h"; sourceTree = "<group>"; };
+		678768022119832D0072D9B3 /* StudentMsg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StudentMsg.m; path = "../../正式5个属性的学生管理系统/正式5个属性的学生管理系统/StudentMsg.m"; sourceTree = "<group>"; };
+		678768042119857A0072D9B3 /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		678768052119857A0072D9B3 /* MyClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
+		67876808211995F20072D9B3 /* ShowTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowTableViewCell.h; sourceTree = "<group>"; };
+		67876809211995F20072D9B3 /* ShowTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67831346211712CA00254293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6783135E211712CB00254293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67831369211712CB00254293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67572C53211BCAD50020B75A /* 修改学生信息 */ = {
+			isa = PBXGroup;
+			children = (
+				67572C54211BCBAA0020B75A /* ChangeStuMsgViewController.h */,
+				67572C55211BCBAA0020B75A /* ChangeStuMsgViewController.m */,
+			);
+			path = "修改学生信息";
+			sourceTree = "<group>";
+		};
+		67643F8E211AC6F0008E68D7 /* 删除学生信息 */ = {
+			isa = PBXGroup;
+			children = (
+				67643F95211AC7D0008E68D7 /* DeleteMsgViewController.h */,
+				67643F96211AC7D0008E68D7 /* DeleteMsgViewController.m */,
+			);
+			path = "删除学生信息";
+			sourceTree = "<group>";
+		};
+		67831340211712CA00254293 = {
+			isa = PBXGroup;
+			children = (
+				67572C53211BCAD50020B75A /* 修改学生信息 */,
+				67876808211995F20072D9B3 /* ShowTableViewCell.h */,
+				67876809211995F20072D9B3 /* ShowTableViewCell.m */,
+				6787680721198C080072D9B3 /* 增加学生信息 */,
+				678767FE211981FA0072D9B3 /* ShowAllStuMsgViewController.h */,
+				678767FF211981FA0072D9B3 /* ShowAllStuMsgViewController.m */,
+				6783134B211712CA00254293 /* 学生成绩管理系统 */,
+				67831364211712CB00254293 /* 学生成绩管理系统Tests */,
+				6783136F211712CB00254293 /* 学生成绩管理系统UITests */,
+				6783134A211712CA00254293 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6783134A211712CA00254293 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67831349211712CA00254293 /* 学生成绩管理系统.app */,
+				67831361211712CB00254293 /* 学生成绩管理系统Tests.xctest */,
+				6783136C211712CB00254293 /* 学生成绩管理系统UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6783134B211712CA00254293 /* 学生成绩管理系统 */ = {
+			isa = PBXGroup;
+			children = (
+				67643F8E211AC6F0008E68D7 /* 删除学生信息 */,
+				678768012119832D0072D9B3 /* StudentMsg.h */,
+				678768022119832D0072D9B3 /* StudentMsg.m */,
+				6783134C211712CA00254293 /* AppDelegate.h */,
+				6783134D211712CA00254293 /* AppDelegate.m */,
+				6783134F211712CA00254293 /* ViewController.h */,
+				67831350211712CA00254293 /* ViewController.m */,
+				67831352211712CA00254293 /* Main.storyboard */,
+				67831355211712CA00254293 /* Assets.xcassets */,
+				67831357211712CA00254293 /* LaunchScreen.storyboard */,
+				6783135A211712CA00254293 /* Info.plist */,
+				6783135B211712CA00254293 /* main.m */,
+				6787675F21192D160072D9B3 /* addStuMsgViewController.h */,
+				6787676021192D160072D9B3 /* addStuMsgViewController.m */,
+				67643F88211A7F58008E68D7 /* addStuMsgViewControllerDelegate.h */,
+				67643F89211A7F58008E68D7 /* addStuMsgViewControllerDelegate.m */,
+				678767F82119428B0072D9B3 /* RegisterViewController.h */,
+				678767F92119428B0072D9B3 /* RegisterViewController.m */,
+				678767FB211942F50072D9B3 /* LogInViewController.h */,
+				678767FC211942F50072D9B3 /* LogInViewController.m */,
+				678768042119857A0072D9B3 /* MyClass.h */,
+				678768052119857A0072D9B3 /* MyClass.m */,
+			);
+			path = "学生成绩管理系统";
+			sourceTree = "<group>";
+		};
+		67831364211712CB00254293 /* 学生成绩管理系统Tests */ = {
+			isa = PBXGroup;
+			children = (
+				67831365211712CB00254293 /* ________Tests.m */,
+				67831367211712CB00254293 /* Info.plist */,
+			);
+			path = "学生成绩管理系统Tests";
+			sourceTree = "<group>";
+		};
+		6783136F211712CB00254293 /* 学生成绩管理系统UITests */ = {
+			isa = PBXGroup;
+			children = (
+				67831370211712CB00254293 /* ________UITests.m */,
+				67831372211712CB00254293 /* Info.plist */,
+			);
+			path = "学生成绩管理系统UITests";
+			sourceTree = "<group>";
+		};
+		6787680721198C080072D9B3 /* 增加学生信息 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "增加学生信息";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67831348211712CA00254293 /* 学生成绩管理系统 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67831375211712CB00254293 /* Build configuration list for PBXNativeTarget "学生成绩管理系统" */;
+			buildPhases = (
+				67831345211712CA00254293 /* Sources */,
+				67831346211712CA00254293 /* Frameworks */,
+				67831347211712CA00254293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "学生成绩管理系统";
+			productName = "学生成绩管理系统";
+			productReference = 67831349211712CA00254293 /* 学生成绩管理系统.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67831360211712CB00254293 /* 学生成绩管理系统Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67831378211712CB00254293 /* Build configuration list for PBXNativeTarget "学生成绩管理系统Tests" */;
+			buildPhases = (
+				6783135D211712CB00254293 /* Sources */,
+				6783135E211712CB00254293 /* Frameworks */,
+				6783135F211712CB00254293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67831363211712CB00254293 /* PBXTargetDependency */,
+			);
+			name = "学生成绩管理系统Tests";
+			productName = "学生成绩管理系统Tests";
+			productReference = 67831361211712CB00254293 /* 学生成绩管理系统Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6783136B211712CB00254293 /* 学生成绩管理系统UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6783137B211712CB00254293 /* Build configuration list for PBXNativeTarget "学生成绩管理系统UITests" */;
+			buildPhases = (
+				67831368211712CB00254293 /* Sources */,
+				67831369211712CB00254293 /* Frameworks */,
+				6783136A211712CB00254293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6783136E211712CB00254293 /* PBXTargetDependency */,
+			);
+			name = "学生成绩管理系统UITests";
+			productName = "学生成绩管理系统UITests";
+			productReference = 6783136C211712CB00254293 /* 学生成绩管理系统UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67831341211712CA00254293 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "萨缪";
+				TargetAttributes = {
+					67831348211712CA00254293 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					67831360211712CB00254293 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 67831348211712CA00254293;
+					};
+					6783136B211712CB00254293 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 67831348211712CA00254293;
+					};
+				};
+			};
+			buildConfigurationList = 67831344211712CA00254293 /* Build configuration list for PBXProject "学生成绩管理系统" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67831340211712CA00254293;
+			productRefGroup = 6783134A211712CA00254293 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67831348211712CA00254293 /* 学生成绩管理系统 */,
+				67831360211712CB00254293 /* 学生成绩管理系统Tests */,
+				6783136B211712CB00254293 /* 学生成绩管理系统UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67831347211712CA00254293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67831359211712CA00254293 /* LaunchScreen.storyboard in Resources */,
+				67831356211712CA00254293 /* Assets.xcassets in Resources */,
+				67831354211712CA00254293 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6783135F211712CB00254293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6783136A211712CB00254293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67831345211712CA00254293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678768062119857A0072D9B3 /* MyClass.m in Sources */,
+				67643F97211AC7D0008E68D7 /* DeleteMsgViewController.m in Sources */,
+				67643F8A211A7F58008E68D7 /* addStuMsgViewControllerDelegate.m in Sources */,
+				67572C56211BCBAA0020B75A /* ChangeStuMsgViewController.m in Sources */,
+				678767FD211942F50072D9B3 /* LogInViewController.m in Sources */,
+				678768032119832F0072D9B3 /* StudentMsg.m in Sources */,
+				67831351211712CA00254293 /* ViewController.m in Sources */,
+				6787680A211995F20072D9B3 /* ShowTableViewCell.m in Sources */,
+				6783135C211712CA00254293 /* main.m in Sources */,
+				6787676121192D160072D9B3 /* addStuMsgViewController.m in Sources */,
+				67876800211981FA0072D9B3 /* ShowAllStuMsgViewController.m in Sources */,
+				678767FA2119428B0072D9B3 /* RegisterViewController.m in Sources */,
+				6783134E211712CA00254293 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6783135D211712CB00254293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67831366211712CB00254293 /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67831368211712CB00254293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67831371211712CB00254293 /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67831363211712CB00254293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67831348211712CA00254293 /* 学生成绩管理系统 */;
+			targetProxy = 67831362211712CB00254293 /* PBXContainerItemProxy */;
+		};
+		6783136E211712CB00254293 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67831348211712CA00254293 /* 学生成绩管理系统 */;
+			targetProxy = 6783136D211712CB00254293 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67831352211712CA00254293 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67831353211712CA00254293 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67831357211712CA00254293 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67831358211712CA00254293 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67831373211712CB00254293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67831374211712CB00254293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67831376211712CB00254293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "学生成绩管理系统/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fist.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67831377211712CB00254293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "学生成绩管理系统/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fist.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67831379211712CB00254293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "学生成绩管理系统Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fist.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/学生成绩管理系统.app/学生成绩管理系统";
+			};
+			name = Debug;
+		};
+		6783137A211712CB00254293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "学生成绩管理系统Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fist.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/学生成绩管理系统.app/学生成绩管理系统";
+			};
+			name = Release;
+		};
+		6783137C211712CB00254293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "学生成绩管理系统UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fist.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "学生成绩管理系统";
+			};
+			name = Debug;
+		};
+		6783137D211712CB00254293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "学生成绩管理系统UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fist.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "学生成绩管理系统";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67831344211712CA00254293 /* Build configuration list for PBXProject "学生成绩管理系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67831373211712CB00254293 /* Debug */,
+				67831374211712CB00254293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67831375211712CB00254293 /* Build configuration list for PBXNativeTarget "学生成绩管理系统" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67831376211712CB00254293 /* Debug */,
+				67831377211712CB00254293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67831378211712CB00254293 /* Build configuration list for PBXNativeTarget "学生成绩管理系统Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67831379211712CB00254293 /* Debug */,
+				6783137A211712CB00254293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6783137B211712CB00254293 /* Build configuration list for PBXNativeTarget "学生成绩管理系统UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6783137C211712CB00254293 /* Debug */,
+				6783137D211712CB00254293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67831341211712CA00254293 /* Project object */;
+}
