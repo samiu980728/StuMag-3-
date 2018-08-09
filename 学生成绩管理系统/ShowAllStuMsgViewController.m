@@ -117,33 +117,7 @@ UITableViewDataSource
     //以上为添加
     
     
-    
-    
-//    //以下为删除
-//    //现在位置信息已经得到
-//    if ( [_numArray1 isKindOfClass:[NSArray class]] && _numArray1.count > 0 ){
-//        //把 _zhiweiInnt 和 _weizhiInt 换成 Array
-//        //_locaUint = [_numArray1 indexOfObject:[NSNumber numberWithInteger:_zhiweiInt]];
-//        //这里加一个for循环
-//        for ( int i = 0; i < [_deleteShowArray count]; i++ ){
-//            //还需要加一个值保存_deleteShowArray[i]
-//            _saveDeleteIndexInt = [_deleteShowArray[i] integerValue];
-//            _locaUint = [_numArray1 indexOfObject:[NSNumber numberWithInteger:_saveDeleteIndexInt]];
-//
-//            if ( _locaUint != 0 ){
-//                [_nameArray1 removeObjectAtIndex:_locaUint];
-//                [_numArray1 removeObjectAtIndex:_locaUint];
-//                [_mathArray1 removeObjectAtIndex:_locaUint];
-//                [_peArray1 removeObjectAtIndex:_locaUint];
-//                [_creditArray1 removeObjectAtIndex:_locaUint];
-//            }
-//
-//
-//        }
-//    }
-//    //以上为删除
-    
-    //修改的话 学号不可修改 其他都可以修改 所以与删除不沾 应该在删除的下面 如果先执行删除了再修改就找不到这个人了嘛 放下面 放下面
+    //修改的话 学号不可修改 其他都可以修改 在删除上面放！！！
     //以下为修改
     if ( [_CPEArray isKindOfClass:[NSArray class]] && _CPEArray.count > 0  ){
         
@@ -154,6 +128,9 @@ UITableViewDataSource
             //所以还需要传入一个位置！！！ 少传了一个
             //找学号所在位置！！！ 先找到学号
             _findNumInt = [_CLocationArray[i] integerValue];
+                
+            //先判断是否存在该学号 如果存在
+                if ( [_numArray1 containsObject:[NSNumber numberWithInteger:_findNumInt]]){
             //再找到学号所在位置
             _reciveLoactionInt = [_numArray1 indexOfObject:[NSNumber numberWithInteger:_findNumInt]];
             NSLog(@"_reciveLoactionInt = %li",_reciveLoactionInt);
@@ -174,6 +151,12 @@ UITableViewDataSource
             
             //修改学分数组中 指定位置_reciveLoactionInt 的学分
             [_creditArray1 replaceObjectAtIndex:_reciveLoactionInt withObject:[NSNumber numberWithInteger:_reciveCreditInt]];
+                
+                }
+                
+                else{
+                    NSLog(@"不存在该学生信息");
+                }
         }
         }
     }
@@ -190,6 +173,7 @@ UITableViewDataSource
         for ( int i = 0; i < [_deleteShowArray count]; i++ ){
             //还需要加一个值保存_deleteShowArray[i]
             _saveDeleteIndexInt = [_deleteShowArray[i] integerValue];
+            if ( [_numArray1 containsObject:[NSNumber numberWithInteger:_saveDeleteIndexInt]] ){
             _locaUint = [_numArray1 indexOfObject:[NSNumber numberWithInteger:_saveDeleteIndexInt]];
             
             if ( _locaUint != 0 ){
@@ -198,6 +182,10 @@ UITableViewDataSource
                 [_mathArray1 removeObjectAtIndex:_locaUint];
                 [_peArray1 removeObjectAtIndex:_locaUint];
                 [_creditArray1 removeObjectAtIndex:_locaUint];
+            }
+    }
+            else{
+                NSLog(@"不存在该值");
             }
             
             
